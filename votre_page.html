@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8"> 
+  <title>Entrons dans le monde des chanteurs virtuels</title> 
+  <link rel="stylesheet" href="votre_style.css"/>
+
+</head>
+
+<body>
+  <!-- A la découverte de la diva virtuelle --> 
+  <h1 style="color:deeppink">Introduction aux Vocaloids ♪(๑ᴖ◡ᴖ๑)♪ </h1>
+  <img src="logo_vocaloid_blbl2.png">
+
+  <p><strong>Vocaloid</strong> est un  logiciel de synthèse vocale développé en 2003 par <i>Yamaha Corporation</i>, 
+    il permet à l'utilisateur de composer une chanson. Il y pourra créer une mélodie et choisir des paroles, bien sûr, mais surtout 
+    choisir parmi une vaste banque de voix le chanteur qui l'interpretera (il pourra modifier sa prononciation, ajouter des effets, 
+    ou changer ses nuances et son timbre). Ces voix viennent de véritables chanteurs ou doubleurs, mais elles sont tellement modifiées 
+    qu'elles semblent génèralement inhumaines.
+    <br>Par conséquent, ces chanteurs, eux-même appelés Vocaloids, ont la particularité d'être virtuels !</p>
+  
+  <div id="liste_et_miku">
+    <ul> Voici une liste des Vocaloids les plus connus :
+      <li> <a id="miku" href="https://vocaloid.fandom.com/fr/wiki/Hatsune_Miku">Hatsune Miku </a>
+        <button> Show Miku </button>
+        <img src="Miku_.png" alt="" id="test"/> </li> 
+
+      <li> <a id="twins" href="https://vocaloid.fandom.com/fr/wiki/Kagamine_Rin_et_Len">Kagamine Rin et Kagamine Len </a> </li>
+
+      <li><a id="luka" href="https://vocaloid.fandom.com/fr/wiki/Megurine_Luka">Megurine Luka</a></li> 
+      <li><a id="meiko" href="https://vocaloid.fandom.com/fr/wiki/MEIKO">MEIKO</a></li>
+      <li><a id="kaito" href="https://vocaloid.fandom.com/fr/wiki/KAITO">KAITO</a></li>
+    </ul>
+
+    <p>
+      <img alt="Survol" height="198" onmouseout="this.src='singing_miku2.png'" onmouseover="this.src='singing_miku.png'" src="singing_miku2.png" />
+    </p>
+</div>
+
+  <!-- <p>Ça ne vous dit rien ?
+  <img src="Miku interrogative.jpg.png"></p>  -->
+
+  <p> Voici quelques musiques que vous avez peut-être déjà entendu : </p>
+ <p id="audio">
+  <audio controls="controls">
+    <source src="hatsune-miku-ievan-polkka-project-diva-dreamy-theatre-hd.mp3" type="audio/mp3" />
+    Votre navigateur n'est pas compatible
+  </audio>
+  <audio controls="controls">
+    <source src="1080p-full-senbonzakura-one-thousand-cherry-trees-hatsune-miku-diva-english-romaji.mp3" type="audio/mp3" />
+    Votre navigateur n'est pas compatible
+  </audio>
+    <audio controls="controls">
+      <source src="1080p-full-world-is-mine-hatsune-miku-project-diva-english-lyrics-romaji-pdft.mp3" type="audio/mp3" />
+      Votre navigateur n'est pas compatible
+    </audio>
+</p>
+
+ </p>
+ <p>Le point fort des Vocaloids, c'est que n'importe qui (à condition d'acheter le logiciel, qui coûte 220€, 350€ pour la version premium) 
+   peut créer une musique et la partager au monde entier. 
+   Les chansons chantées par des Vocaloids sont indénombrables, de tout type et traitant de sujets aussi graves que joyeux. 
+   <br> Par exemple, voici <a href="https://www.youtube.com/watch?v=rhCw4iyBvpk&t=6s"> Suki Kirai</a>, une chanson d'amour mignonne et légère,  
+   <a href="https://youtu.be/9hBGPYhANdY">The Lost One's Weeping</a>, qui parle de pression scolaire, 
+   ou encore <a href="https://www.youtube.com/watch?v=NIqm73xsias"> Rolling Girl</a>, qui traite du harcèlement, de dépression.
+
+   <br> Il existe également des UTAUloids, la différence étant que le logiciel UTAU est gratuit et que les personnages sont crées par des fans, 
+   non pas des professionnels. Cependant, certains d'entre eux ont eu un grand succès et apparaissent dans certains concerts aux côté des Vocaloids.
+<br>En effet, bien que virtuels, ces chanteurs sont tellement populaires qu'ils font régulièrement des concerts, 
+au <a href="https://www.youtube.com/watch?v=MWql1CBYlk8">Japon</a> aussi bien qu'à l'international (<a href="https://www.youtube.com/watch?v=MWql1CBYlk8">Ici</a> à Paris) ! </p>
+
+<p>Merci d'avoir lu !</p>
+<img src="bb_Miku.png">
+
+
+<div>
+  <p> Que sont les Vocaloids ? </p>
+  <form action="traitement2.php">
+    <input type="radio" name="question1" value="Des chanteurs virtuels" checked="checked"> Des chanteurs virtuels
+    <input type="radio" name="question1" value="Des Vtuber"> Des Vtuber
+    <input type="radio" name="question1" value="Les personnages d'une série"> Les personnages d'une série<br>
+
+    <p> Quelle entreprise les a développés ?</p>
+    <form action="traitement.php">
+      <input type="radio" name="question2" value="Honda"> Honda
+      <input type="radio" name="question2" value="Hatsune Miku" checked="checked"> Hatsune Miku
+      <input type="radio" name="question2" value="Yamaha"> Yamaha<br>
+
+      <p> Qui est le Vocaloid le plus connu ?</p>
+    <form action="traitement.php">
+      <input type="radio" name="question3" value="Luka" checked="checked"> Luka
+      <input type="radio" name="question3" value="Miku"> Miku
+      <input type="radio" name="question3" value="Gumi"> Gumi<br>
+
+    <button type="submit">Envoyer</button>
+</div>
+
+
+
+</body>
+<script src = "votre_javascript.js"></script>
+
+</html> 

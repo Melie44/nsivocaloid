@@ -1,0 +1,76 @@
+﻿body {
+	padding: 50px;
+	font-family:"Arial";
+	font-size: large;
+	color: rgb(17, 17, 87);
+	background-color:  #9addf9 ;
+	list-style-type: circle ;
+	border-width:10px;
+	border-style:double ;	
+	border-color:white;
+}
+
+h1 {
+	color:deeppink;
+	font-size: 60px ;
+	text-align: center;
+-webkit-text-stroke: 2px;
+-webkit-text-stroke-color: rgb(223, 240, 248) ;
+}
+
+h2 {
+	color:deeppink;
+	font-size: 50px ;
+	text-align: left;
+	-webkit-text-stroke: 1px;
+	-webkit-text-stroke-color: rgb(223, 240, 248) ;
+
+}
+
+img {
+	display: block;
+	margin: auto;
+}
+
+
+#liste_et_miku{
+	display: flex;
+	justify-content: space-around;
+}
+
+ul{
+	margin-top: auto;
+	margin-bottom: auto;
+}
+
+#audio{
+	text-align: center;
+
+}
+
+#test{
+	display: none;
+}	
+
+li{
+	}
+	li:hover
+	{
+color: deeppink
+	}
+#miku{
+	color :rgb(12, 142, 248)
+}
+#twins{
+	color :rgb(253, 212, 27)
+}
+
+#luka{
+	color :rgb(248, 72, 181)
+}
+#meiko{
+	color :rgb(218, 4, 4)
+}
+#kaito{
+	color :rgb(3, 23, 194)
+}
